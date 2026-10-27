@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F6FC"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🧮"
+            android:textSize="55sp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MY CALCULATOR"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#123B75"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simple • Fast • Accurate"
+            android:textSize="16sp"
+            android:textColor="#64748B"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose an operation"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#263449"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="+   Addition"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#F4C542"
+            android:textColor="#172033" />
+
+        <Button
+            android:id="@+id/btnSubtract"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="14dp"
+            android:text="−   Subtraction"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#CDE4FF"
+            android:textColor="#123B75" />
+
+        <Button
+            android:id="@+id/btnDivide"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="14dp"
+            android:text="÷   Division"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#FFE0C2"
+            android:textColor="#733C12" />
+
+        <Button
+            android:id="@+id/btnMultiply"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="14dp"
+            android:text="×   Multiplication"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#F8D2DC"
+            android:textColor="#7B1F40" />
+
+        <Button
+            android:id="@+id/btnHelp"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="24dp"
+            android:text="Help and Instructions"
+            android:textSize="18sp"
+            android:backgroundTint="#D5EBD8"
+            android:textColor="#20552B" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Made by mohamud"
+            android:textSize="13sp"
+            android:textColor="#8490A0"
+            android:layout_marginTop="25dp" />
+
+    </LinearLayout>
+
+</ScrollView>
