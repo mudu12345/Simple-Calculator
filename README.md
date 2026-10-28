@@ -41,3 +41,8 @@ Mohamud Mohamed
 
 ## Project Purpose
 This project was developed for learning Android application development with Kotlin and XML.
+## 📥 Download the App
+
+[Download Simple Calculator APK](https://github.com/mudu12345/Simple-Calculator/releases/latest)
+
+Download the APK from the latest release and install it on your Android device.
